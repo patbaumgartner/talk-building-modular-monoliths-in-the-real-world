@@ -1,0 +1,23 @@
+### Create a new order
+POST http://localhost:8080/orders?productId=PROD-001
+Accept: application/json
+
+### Create another order
+POST http://localhost:8080/orders?productId=PROD-002
+Accept: application/json
+
+### Check Modulith actuator endpoint
+GET http://localhost:8080/actuator/modulith
+Accept: application/json
+
+### Health check
+GET http://localhost:8080/actuator/health
+Accept: application/json
+
+### H2 Console (open in browser)
+// Navigate to http://localhost:8080/h2-console
+// JDBC URL: jdbc:h2:mem:testdb
+// User: sa / Password: (empty)
+
+### Jaeger UI (open in browser)
+// Navigate to http://localhost:16686
