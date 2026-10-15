@@ -1,6 +1,6 @@
 # Demo
 
-> **Stack:** Spring Boot 4.0.5 · Spring Modulith 2.1.0-M4 · Java 21
+> **Stack:** Spring Boot 4.1.1 · Spring Modulith 2.1.1 · Java 21
 
 ---
 

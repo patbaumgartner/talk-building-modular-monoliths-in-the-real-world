@@ -5,13 +5,14 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>4.0.6</version>
+    <version>4.1.1</version>
     <relativePath></relativePath>
   </parent>
 
   <groupId>com.patbaumgartner.demo</groupId>
   <artifactId>modulith-step1-working-mess</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
   <name>modulith-step1-working-mess</name>
   <description>Step 1 - The Working Mess</description>
 
@@ -53,7 +54,7 @@
       <plugin>
         <groupId>io.spring.javaformat</groupId>
         <artifactId>spring-javaformat-maven-plugin</artifactId>
-        <version>0.0.47</version>
+        <version>0.0.48</version>
       </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>

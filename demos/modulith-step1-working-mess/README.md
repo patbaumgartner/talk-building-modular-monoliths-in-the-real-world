@@ -31,7 +31,7 @@ mvn spring-boot:run
 
 ## Stack
 
-- Spring Boot 4.0.5
+- Spring Boot 4.1.1
 - Spring Data JDBC + H2
 - No Spring Modulith (yet)
 - No tests — intentional; verification starts in Step 2

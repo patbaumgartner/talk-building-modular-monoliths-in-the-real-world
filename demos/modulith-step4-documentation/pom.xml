@@ -5,19 +5,20 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>4.0.6</version>
+    <version>4.1.1</version>
     <relativePath></relativePath>
   </parent>
 
   <groupId>com.patbaumgartner.demo</groupId>
   <artifactId>modulith-step4-documentation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
   <name>modulith-step4-documentation</name>
   <description>Step 4 - Automated Documentation</description>
 
   <properties>
     <java.version>21</java.version>
-    <spring-modulith.version>2.1.0-RC1</spring-modulith.version>
+    <spring-modulith.version>2.1.1</spring-modulith.version>
   </properties>
 
   <dependencyManagement>
@@ -92,7 +93,7 @@
       <plugin>
         <groupId>io.spring.javaformat</groupId>
         <artifactId>spring-javaformat-maven-plugin</artifactId>
-        <version>0.0.47</version>
+        <version>0.0.48</version>
       </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
